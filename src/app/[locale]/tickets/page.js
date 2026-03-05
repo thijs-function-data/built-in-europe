@@ -1,11 +1,15 @@
+import { useTranslations } from 'next-intl';
+
 export default function Tickets() {
+    const t = useTranslations('Tickets');
+
     return (
         <main className="container" style={{ paddingTop: "4rem", paddingBottom: "4rem", textAlign: "center" }}>
             <h1 className="heading-xl animate-fade-in stagger-1" style={{ marginBottom: "1rem" }}>
-                Secure Your <span className="text-gradient">Spot</span>
+                {t('title')} <span className="text-gradient">{t('title_grad')}</span>
             </h1>
             <p className="text-lead animate-fade-in stagger-2" style={{ marginBottom: "4rem" }}>
-                Choose how you want to participate in the most vital analytics hackathon in Europe.
+                {t('subtitle')}
             </p>
 
             <div style={{
@@ -18,36 +22,36 @@ export default function Tickets() {
 
                 {/* Online Pass */}
                 <div className="glass-card" style={{ display: "flex", flexDirection: "column" }}>
-                    <h3 className="heading-lg" style={{ fontSize: "1.75rem", marginBottom: "0.5rem" }}>Virtual Hacker</h3>
+                    <h3 className="heading-lg" style={{ fontSize: "1.75rem", marginBottom: "0.5rem" }}>{t('virtual_title')}</h3>
                     <div style={{ fontSize: "2.5rem", fontWeight: 800, color: "var(--eu-blue)", marginBottom: "2rem" }}>
-                        €0
+                        {t('virtual_price')}
                     </div>
                     <ul style={{ textAlign: "left", marginBottom: "2rem", color: "var(--text-secondary)", flexGrow: 1, display: "flex", flexDirection: "column", gap: "0.75rem" }}>
-                        <li>✓ Full access to Discord</li>
-                        <li>✓ Participate in team formation</li>
-                        <li>✓ Entry to all virtual API workshops</li>
-                        <li>✓ Submit to online judging</li>
+                        <li>{t('v_item1')}</li>
+                        <li>{t('v_item2')}</li>
+                        <li>{t('v_item3')}</li>
+                        <li>{t('v_item4')}</li>
                     </ul>
-                    <button className="btn btn-secondary" style={{ width: "100%" }}>Register Free</button>
+                    <button className="btn btn-secondary" style={{ width: "100%" }}>{t('v_btn')}</button>
                 </div>
 
                 {/* Live Finals Pass */}
                 <div className="glass-card" style={{ display: "flex", flexDirection: "column", border: "2px solid var(--eu-yellow)", position: "relative" }}>
                     <div style={{ position: "absolute", top: "-1rem", left: "50%", transform: "translateX(-50%)", background: "var(--eu-yellow)", color: "var(--eu-blue)", padding: "0.25rem 1rem", borderRadius: "99px", fontWeight: "bold", fontSize: "0.875rem" }}>
-                        RECOMMENDED
+                        {t('recommended')}
                     </div>
-                    <h3 className="heading-lg" style={{ fontSize: "1.75rem", marginBottom: "0.5rem" }}>Utrecht Finals</h3>
+                    <h3 className="heading-lg" style={{ fontSize: "1.75rem", marginBottom: "0.5rem" }}>{t('live_title')}</h3>
                     <div style={{ fontSize: "2.5rem", fontWeight: 800, color: "var(--eu-blue)", marginBottom: "2rem" }}>
-                        €35
+                        {t('live_price')}
                     </div>
                     <ul style={{ textAlign: "left", marginBottom: "2rem", color: "var(--text-secondary)", flexGrow: 1, display: "flex", flexDirection: "column", gap: "0.75rem" }}>
-                        <li>✓ Everything in Virtual Hacker</li>
-                        <li>✓ Guaranteed access to June 4 Live Finals</li>
-                        <li>✓ Lunch, drinks, and snacks included</li>
-                        <li>✓ Exclusive swag bag</li>
-                        <li>✓ In-person networking with judges</li>
+                        <li>{t('l_item1')}</li>
+                        <li>{t('l_item2')}</li>
+                        <li>{t('l_item3')}</li>
+                        <li>{t('l_item4')}</li>
+                        <li>{t('l_item5')}</li>
                     </ul>
-                    <button className="btn btn-primary" style={{ width: "100%" }}>Buy Ticket</button>
+                    <button className="btn btn-primary" style={{ width: "100%" }}>{t('l_btn')}</button>
                 </div>
 
             </div>

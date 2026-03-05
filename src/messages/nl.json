@@ -1,0 +1,82 @@
+{
+    "Navigation": {
+        "home": "Home",
+        "about": "Over ons",
+        "agenda": "Progamma",
+        "contact": "Contact",
+        "tickets": "Tickets"
+    },
+    "Index": {
+        "badge": "2-4 Juni • Wereldwijd Online & Utrecht Live Finales",
+        "title1": "De Volgende Generatie",
+        "title2": "EU Analytics",
+        "description": "Bouw krachtige, privacy-vriendelijke analytics tools. Wij bieden de infrastructuur; jij bouwt de toekomst—data verlaat Europa niet.",
+        "register": "Registreer Nu",
+        "learn_more": "Lees Meer",
+        "timeline_title": "De Tijdlijn",
+        "timeline_desc_1": "2-3 Juni: Wereldwijde Online Samenwerking.",
+        "timeline_desc_2": "4 Juni: Live Finales in Utrecht.",
+        "sovereignty_title": "Data Soevereiniteit",
+        "sovereignty_desc": "Bouw state-of-the-art tools en garandeer dat data nooit de Europese grenzen verlaat. Een technische en juridische uitdaging."
+    },
+    "About": {
+        "title": "Over de",
+        "title_grad": "Hackathon",
+        "p1": "Built in Europe is ontstaan uit een cruciale behoefte: het snijvlak van geavanceerde analytics en strikte Europese data-soevereiniteit.",
+        "p2": "In de huidige verbonden wereld gaat het bouwen van krachtige analytics oplossingen vaak ten koste van het feit dat data de Europese grenzen verlaat. Dit introduceert complexe juridische en ethische uitdagingen.",
+        "p3": "Onze missie is simpel maar ambitieus: de knapste koppen uit data en engineering samenbrengen om innovatieve platforms te bouwen die technisch en juridisch binnen de Europese Unie blijven.",
+        "principles_title": "Onze Kernprincipes",
+        "principles_1": "Soevereiniteit: Data blijft in de EU. Punt.",
+        "principles_2": "Innovatie: Sluit geen compromissen tussen kracht en privacy.",
+        "principles_3": "Samenwerking: Bouw samen open, transparante en betrouwbare systemen."
+    },
+    "Agenda": {
+        "title": "Hackathon",
+        "title_grad": "Programma",
+        "day1_title": "Wereldwijde Online Samenwerking",
+        "day1_sub": "Virtueel / Discord / GitHub",
+        "d1_item1": "Kick-off & Teamvorming (Stream)",
+        "d1_item2": "Hacken Begint!",
+        "d1_item3": "Mentor sessies en workshops over EU infrastructuur en API's",
+        "d1_item4": "Code Freeze en eerste presentaties",
+        "day3_title": "Live Finales & Feest",
+        "day3_sub": "Utrecht, Nederland (Kantoor Relevant Online)",
+        "d3_item1": "Deuren open, Lunch & Netwerken",
+        "d3_item2": "Pitches Finalisten (Top 10 Teams)",
+        "d3_item3": "Jury Beraad",
+        "d3_item4": "Prijsuitreiking",
+        "d3_item5": "Borrel & Afterparty"
+    },
+    "Tickets": {
+        "title": "Verzeker je",
+        "title_grad": "Plek",
+        "subtitle": "Kies hoe je wilt deelnemen aan de meest vitale analytics hackathon van Europa.",
+        "virtual_title": "Virtuele Hacker",
+        "virtual_price": "€0",
+        "v_item1": "✓ Volledige toegang tot Discord",
+        "v_item2": "✓ Neem deel aan teamvorming",
+        "v_item3": "✓ Toegang tot alle online workshops",
+        "v_item4": "✓ Inzending voor online jury",
+        "v_btn": "Gratis Registreren",
+        "recommended": "AANBEVOLEN",
+        "live_title": "Utrecht Finales",
+        "live_price": "€35",
+        "l_item1": "✓ Alles in Virtuele Hacker",
+        "l_item2": "✓ Gegarandeerde toegang Live Finales (4 Juni)",
+        "l_item3": "✓ Inclusief lunch, drankjes en snacks",
+        "l_item4": "✓ Exclusieve swag bag",
+        "l_item5": "✓ Live netwerken met de jury",
+        "l_btn": "Koop Ticket"
+    },
+    "Contact": {
+        "title": "Neem",
+        "title_grad": "Contact Op",
+        "email_title": "E-mail Ons",
+        "email": "hello@builtineurope.eu",
+        "venue_title": "De Locatie",
+        "venue_desc_html": "<strong>Relevant Online</strong><br />Utrecht, Nederland<br />(Live Finales op 4 Juni)",
+        "join_title": "Join de Community",
+        "join_btn": "Kom bij onze Discord",
+        "map_title": "Relevant Online Kantoor"
+    }
+}
