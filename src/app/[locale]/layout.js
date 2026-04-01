@@ -44,19 +44,26 @@ export default async function LocaleLayout({ children, params: { locale } }) {
           }}>
             <Link href="/" style={{ fontWeight: 800, fontSize: "1.15rem", letterSpacing: "-0.03em", color: "var(--text-primary)", display: "flex", alignItems: "center", gap: "0.625rem" }} className={outfit.className}>
               <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: 0 }}>
-                {/* 2x2 grid of blocks inside the square */}
-                <rect x="0"  y="0"  width="12" height="12" rx="3" fill="url(#lb1)"/>
-                <rect x="16" y="0"  width="12" height="12" rx="3" fill="url(#lb2)"/>
-                <rect x="0"  y="16" width="12" height="12" rx="3" fill="url(#lb2)"/>
-                <rect x="16" y="16" width="12" height="12" rx="3" fill="url(#lb1)"/>
+                {/* White blocks — top right */}
+                <rect x="10" y="0"  width="8" height="8" rx="2" fill="#ffffff"/>
+                <rect x="20" y="0"  width="8" height="8" rx="2" fill="#ffffff"/>
+                {/* Blue L-piece: left column (3) + bottom-middle */}
+                <rect x="0"  y="0"  width="8" height="8" rx="2" fill="url(#t1)"/>
+                <rect x="0"  y="10" width="8" height="8" rx="2" fill="url(#t1)"/>
+                <rect x="0"  y="20" width="8" height="8" rx="2" fill="url(#t1)"/>
+                <rect x="10" y="20" width="8" height="8" rx="2" fill="url(#t1)"/>
+                {/* Fuchsia piece: middle row (2) + bottom-right */}
+                <rect x="10" y="10" width="8" height="8" rx="2" fill="url(#t2)"/>
+                <rect x="20" y="10" width="8" height="8" rx="2" fill="url(#t2)"/>
+                <rect x="20" y="20" width="8" height="8" rx="2" fill="url(#t2)"/>
                 <defs>
-                  <linearGradient id="lb1" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+                  <linearGradient id="t1" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
                     <stop offset="0%" stopColor="#6b8fff"/>
                     <stop offset="100%" stopColor="#3b6eff"/>
                   </linearGradient>
-                  <linearGradient id="lb2" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
-                    <stop offset="0%" stopColor="#a78bfa"/>
-                    <stop offset="100%" stopColor="#7c5ef0"/>
+                  <linearGradient id="t2" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+                    <stop offset="0%" stopColor="#ff4db8"/>
+                    <stop offset="100%" stopColor="#e8006f"/>
                   </linearGradient>
                 </defs>
               </svg>
